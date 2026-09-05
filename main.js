@@ -57,8 +57,7 @@ function toggleAuthView(view, event) {
     if (signupForm) signupForm.style.display = 'none';
   }
   
-  // Re-attach hover/magnetic events for newly visible inputs (functions in animations.js)
-  if (typeof attachHoverEvents === 'function') attachHoverEvents();
+  // Re-attach magnetic events for newly visible inputs (function in animations.js)
   if (typeof attachMagneticEvents === 'function') attachMagneticEvents();
 }
 
@@ -283,7 +282,6 @@ function openComingSoonModal(title) {
   if (titleEl && modal) {
       titleEl.innerText = title;
       modal.classList.add('active');
-      if (typeof attachHoverEvents === 'function') attachHoverEvents(); 
   }
 }
 
