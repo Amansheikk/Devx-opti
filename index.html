@@ -3,21 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DevX | Student-Led Tech Club</title>
   
-  <!-- Fonts for SaaS look and Developer Code Editor -->
+  <!-- Enterprise-grade Meta Tags -->
+  <title>DevX | Student-Led Tech Club</title>
+  <meta name="description" content="DevX is a student-led tech club bridging the gap between academic learning and real-world tech industry demands.">
+  <meta name="theme-color" content="#17072b">
+  <meta name="color-scheme" content="dark">
+  
+  <!-- Resource Pre-connections for Faster Loading -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://lzqztwhcjsnuprwyxblk.supabase.co" crossorigin>
+  
+  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
 
-  <!-- Supabase Official Client Library (Deferred to prevent render blocking) -->
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
-
-  <!-- External CSS -->
+  <!-- Core Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Supabase Official Client Library -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" defer></script>
 </head>
+
 <body class="devx-is-booting">
 
   <!-- =========================================
@@ -117,7 +126,7 @@
       </div>
       <div class="teams-grid">
         <!-- Technical Group Modal Trigger -->
-        <div class="team-card card-tech reveal-up delay-1 hover-target magnetic-card" onclick="openTechModal()" style="cursor: pointer;">
+        <div class="team-card card-tech reveal-up delay-1 hover-target magnetic-card" onclick="openTechModal()">
           <div class="team-icon">💻</div>
           <h3>Technical Group</h3>
           <p>The engineering core. We focus on developing websites, designing user interfaces, creating frontend & backend systems, and building full-scale applications.</p>
@@ -125,7 +134,7 @@
         </div>
         
         <!-- Production Team Modal Trigger -->
-        <div class="team-card card-prod reveal-up delay-2 hover-target magnetic-card" onclick="openProdModal()" style="cursor: pointer;">
+        <div class="team-card card-prod reveal-up delay-2 hover-target magnetic-card" onclick="openProdModal()">
           <div class="team-icon">🎛️</div>
           <h3>Production Team</h3>
           <p>The technical backbone of our events. Tasked with handling logistics like stage projection, speaker setup, mic arrays, lighting, and audio management.</p>
@@ -133,7 +142,7 @@
         </div>
         
         <!-- Management Team Modal Trigger -->
-        <div class="team-card card-mgmt reveal-up delay-3 hover-target magnetic-card" onclick="openMgmtModal()" style="cursor: pointer;">
+        <div class="team-card card-mgmt reveal-up delay-3 hover-target magnetic-card" onclick="openMgmtModal()">
           <div class="team-icon">🎤</div>
           <h3>Management Team</h3>
           <p>The operational leaders. Whenever DevX hosts an event, this team steps up to manage crowd flow, coordinate schedules, and handle live anchoring.</p>
@@ -141,7 +150,7 @@
         </div>
 
         <!-- Marketing Team Modal Trigger -->
-        <div class="team-card card-mktg reveal-up delay-1 hover-target magnetic-card" onclick="openMktgModal()" style="cursor: pointer;">
+        <div class="team-card card-mktg reveal-up delay-1 hover-target magnetic-card" onclick="openMktgModal()">
           <div class="team-icon">🤝</div>
           <h3>Marketing Team</h3>
           <p>The voice of the club. Utilizing strong communication skills to network with industry professionals, find sponsorships, and grow the club's external reach.</p>
@@ -149,7 +158,7 @@
         </div>
         
         <!-- Social Media Team Modal Trigger -->
-        <div class="team-card card-social reveal-up delay-2 hover-target magnetic-card" onclick="openSocialModal()" style="cursor: pointer;">
+        <div class="team-card card-social reveal-up delay-2 hover-target magnetic-card" onclick="openSocialModal()">
           <div class="team-icon">📱</div>
           <h3>Social Media</h3>
           <p>The digital presence creators. Responsible for handling official pages, crafting posts, video editing, graphic design, and audience engagement.</p>
